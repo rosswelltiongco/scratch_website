@@ -1,0 +1,65 @@
+body{
+	margin: 0;
+	font-family: cambria;
+	background-image: images/yosemite-background.jpg
+}
+
+header {
+	background: black;
+	color: white;
+	margin: 0 0 0 0;
+	padding: 10 10 2 5;
+	
+	
+}
+
+header h1, header h1 a {
+	margin: 0;
+	font-size: 35;
+	color: white;
+	padding: 20 5;
+	display: inline;
+
+	
+	
+}
+
+nav ul{
+	background: black;
+	float: right;
+	margin: 0;
+	display: inline;
+	padding: 0;
+	
+	
+}
+
+nav ul li{
+	background: green;
+	color: blue;
+	display:inline-block;
+	list-style-type: none;
+	padding: 10px 25px;
+	font-size: 20;
+	margin: 0 -1;
+}
+
+nav ul li a{
+	color: white;
+	margin: 0;
+	padding: 50;
+}
+
+.row{
+	clear: both
+}
+
+.col {
+	display: inline;
+	width: 33%;
+	float: left;
+}
+
+footer{
+	clear: both;
+}
