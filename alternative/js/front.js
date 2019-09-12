@@ -209,7 +209,7 @@ $('#filter a').click(function (e) {
     var categoryToFilter = $(this).attr('data-filter');
 
     $('.reference-item').each(function () {
-	if ($(this).data('category') === categoryToFilter || categoryToFilter === 'all') {
+	if ($(this).data('category').includes(categoryToFilter)) {
 	    $(this).removeClass('hidden');
 	}
 	else {
