@@ -1,0 +1,29 @@
+<head>
+    ...
+    <link rel="stylesheet" href="/css/main.css"/>
+    <link disabled id="dark-reader" rel="stylesheet" href="/css/dark.css">
+    ...
+  </head>
+  
+
+
+  helloooo
+<a href="javascript:void(0)" onclick="dark_toggle();return false;" title="Toggle night mode">
+    Some text, button or image that on click toggles the dark theme for this
+    website. I use font awesome icons.
+</a>
+
+
+<script>
+    dark_toggle();
+        function dark_toggle() {
+        var el1 = document.getElementById("dark-reader");
+        if(el1.disabled) {
+            el1.disabled = false;
+            localStorage.setItem("darkreader", "enabled");
+        } else {
+            el1.disabled = true;
+            localStorage.setItem("darkreader", "disabled");
+        }
+        }
+        </script>

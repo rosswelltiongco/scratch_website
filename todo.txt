@@ -34,3 +34,7 @@ MIPS Processor
 IoT Smart Trash
 Pong Game
 Presidential Tweets
+
+
+add skills tag (make it github colored)
+make github readme's according to good practice
