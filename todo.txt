@@ -1,0 +1,36 @@
+// Intro
+I'm a rising college senior currently taking up Computer Engineering California State University, Long Beach. I'm an engineer with 3 years of professional experience, having worked with clients such as Raytheon and Filtec. I enjoy building everything from practical applications to goofy applications.
+
+// Work
+Software Engineer Intern at Raytheon May 2019 - Present
+-Built tool to automate documentation
+-Converted old Microsoft Access Server to C# Webform to add, modify, search, and delete records
+
+Software Engineer Intern at Filtec May 2018 - August 2018
+-Wrote python tool to parse and query thousands of console log entries into a sqlite database
+-Implemented full stack flask application to continuously monitor in house test machines
+-Tested and documented software builds to ensure system and customer requirements are met
+
+Computer Science Instructional Student at CSULB Jan 2018 - May 2018
+-Communicated with students to ensure laboratory objectives are met on time
+-Facilitated students’ learning of Python laboratory projects to resolve programming conceptual issues
+-Evaluated assignments from 80+ students to provide fair assessment
+
+// Projects
+CSULB Room Finder
+CSULB Search
+yelpERS
+Rate My Professor CSULB Chrome App
+CSULB Rate My Professor Bookmarklet
+Beer Pong Robot
+Obstacle avoiding robot
+Smart Car and Home
+UART
+Micromouse
+Robotic Arm
+FM Transmitter
+Home Security System
+MIPS Processor
+IoT Smart Trash
+Pong Game
+Presidential Tweets
