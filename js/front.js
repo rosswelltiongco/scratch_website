@@ -276,7 +276,7 @@ function map() {
 
         var map = L.map(mapId, {
             center: mapCenter,
-            zoom: 12,
+            zoom: 11,
             dragging: dragging,
             tap: tap,
             scrollWheelZoom: false
