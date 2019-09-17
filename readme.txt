@@ -1,6 +1,6 @@
 ################################################################################################
 
-IT Worker for Designer Template by Bootstrap temple - https://bootstraptemple.com
+IT Worker Template by Bootstrapious -  https://bootstrapious.com
 
 ################################################################################################
 
@@ -8,84 +8,84 @@ Hi,
 
 thank you for downloading. Have fun and tell your friends about us ;)
 
-Ondrej, Bootstrap Temple
+Ondrej, Bootstrapious
 
 
-*Everything is kept simple so you should not have any problems implementing the template. I will try to answer few of the possible questions below.*
+CSS
+----------
+
+The theme stylesheet is css/style.default.css. If you want to make any changes, 
+you can do it here or better to override it in custom.css so you can update the original theme stylesheet if an updated is released. 
+Changing to another colour variant, is just a matter of replacing css/style.default.css with css/style.pink.css in index.html.
+
+Javascript
+----------
+
+Apart from the Bootstrap JS components, the majority of JS is located in /js/front.js. 
 
 
-**Changing the colour of the theme**
+Credits
+---------
 
-Every colour variant has its appropriate stylesheets located in the /css directory. To change the colour of the template simply change the path in the header of the HTML template, i.e. from *style.default.css* to *style.pink.css*.
+- Botstrap 4 - http://getbootstrap.com
+- Font Awesome 4.7 - http://fontawesome.io/
+- Google Fonts - Roboto, Roboto Slab
+- more in credits.txt.
 
+Changelog
+---------
 
-**Javascript**
+-----------------------------------------------------------------------------------------
+Version 2.1 - 2019/03/01
+-----------------------------------------------------------------------------------------
+    
+- updated Bootstrap to 4.3.1
+- dropped Google Maps, replaced by free OpenStreetMaps + LeafletJs
 
-Apart from Bootstrap JS components majority of JS is located in /js/front.js. In this file you can change the settings of the owl carousel, google maps settings etc. 
+-----------------------------------------------------------------------------------------
+Version 2.0.1 - 2018/10/29
+-----------------------------------------------------------------------------------------
+    
+- removed style switcher that should be only in the demo version, not in the distribution
+  package
+- updated: Animate.css, Bootstrap, Owl Carousel, PopperJs
 
-**Google Maps**
+-----------------------------------------------------------------------------------------
+Version 2.0.0 - 2018/06/19
+-----------------------------------------------------------------------------------------
+    
+- a complete rework into Boostrap 4.1.1
+- removed PHP form
 
-Google maps are used on the contact page. If you need just to show location of the company on the map, the only neccessary thing is to change coordinates in the header of contact.html. For further settings and possibilities please consult [Google Maps API documentation](https://developers.google.com/maps/documentation/javascript/).
+-----------------------------------------------------------------------------------------
+Version 1.1 - 2017/10/10
+-----------------------------------------------------------------------------------------
 
-**Contact form**
+- minor fixes
 
-To set up contact form:
+-----------------------------------------------------------------------------------------
+Version 1.3 - 2015/02/02
+-----------------------------------------------------------------------------------------
 
-1. Upload a template to your webhosting or set up HTTP server on your local machine (XAMPP, WAMP or similar).
-2. Make directory php/temp writeable (change attributes to 777)
-3. Edit the options in contact.php file. The most important are: `$from` and `$sendTo`. The rest can remain as it is.
-
-Thank you for downloading!
-
-In case you would need some custom modifications, don't hesitate to get in touch.
-
-ondrique, (ahoj@ondrejsvestka.cz)
-
-## Credits ##
-
-- Bootstrap 3.3 - [http://getbootstrap.com/](http://getbootstrap.com/)
-- Photos for demo purposes [IM FREE](http://www.imcreator.com/free)
-
-**Plugins used in the template**
-
-- Owl Carousel ([http://www.owlgraphic.com/owlcarousel/](http://www.owlgraphic.com/owlcarousel/))
-- jQuery Waypoints ([http://imakewebthings.com/jquery-waypoints/](http://imakewebthings.com/jquery-waypoints/))
-- animate.css ([http://daneden.github.io/animate.css/](http://daneden.github.io/animate.css/))
-- Modernizr ([http://modernizr.com/](http://modernizr.com/)) 
-- Bootstrap Hover Dropdown plugin ([https://github.com/CWSpear/bootstrap-hover-dropdown](https://github.com/CWSpear/bootstrap-hover-dropdown))
-- jQuery scrollTo ([http://demos.flesler.com/jquery/scrollTo/](http://demos.flesler.com/jquery/scrollTo/))
-- gmaps.js ([http://hpneo.github.io/gmaps/](http://hpneo.github.io/gmaps/))
-- Masonry ([http://masonry.desandro.com/](http://masonry.desandro.com/))
-- jQuery Parallax ([http://ianlunn.co.uk/plugins/jquery-parallax](http://ianlunn.co.uk/plugins/jquery-parallax/))
-- jQuery Counter Up ([https://github.com/bfintal/Counter-Up](https://github.com/bfintal/Counter-Up))
-- Nette Framework ([http://nette.org/en/](http://nette.org/en/))
-
-
-**Fonts used in the template**
-
-- Roboto ([https://www.google.com/fonts/specimen/Roboto](https://www.google.com/fonts/specimen/Roboto))
-- Roboto Slab ([http://www.google.com/fonts/specimen/Roboto+Slab](http://www.google.com/fonts/specimen/Roboto+Slab))
-
-**Images**
-
-- Markus Spiske ([https://www.flickr.com/photos/125167502@N02/](https://www.flickr.com/photos/125167502@N02/))
+- Initial release
 
 ---------------------
  LICENSE CONDITIONS
 ---------------------
 
-You are completely free to use this template for your personal use or as a work for your client as long as you keep the link at the template footer pointing to us and our partner. 
+You are completely free to use this template for your personal use or as a work for your client as 
+long as you keep the link at the template footer pointing to us and our partner. 
 
-If you would prefer removing the backlink from the theme footer, please purchase the attribution-free licese at https://bootstraptemple.com. The price of the license is mere $10.
+If you would prefer removing the backlink from the theme footer, please donate (https://bootstrapious.com/donate) 
+to support themes' development. Suggested amount per template is $10. 
+Also, as a bonus for donors, I can provide you the SASS files for even easier template customization. Drop me a line at hello@bootstrapious.com after donating.
 
 However you cannot redistribute the template nor its derivatives on the internet - neither for free or commercially (e.g. selling it on template marketplace).
 
 Thank you for understanding and respecting the license conditions.
 
-If more info needed, contact me at hello@bootstraptemple.com.
-
 ---------------------
  GET IN TOUCH ;)
 ---------------------
 
-https://twitter.com/bootstraptemple |  hello@bootstraptemple.com
+https://twitter.com/bootstrapious | https://google.com/+Bootstrapious1 | https://www.facebook.com/bootstrapious | hello@bootstrapious.com
