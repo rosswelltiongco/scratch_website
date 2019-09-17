@@ -102,7 +102,7 @@ $(function () {
 
         $('.reference-item').each(function () {
 
-            if ($(this).data('category') === categoryToFilter || categoryToFilter === 'all') {
+            if ($(this).data('category').includes(categoryToFilter)) {
                 $(this).show();
             } else {
                 $(this).hide();
