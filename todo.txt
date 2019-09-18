@@ -1,6 +1,3 @@
-
-CSULB Room Finder
-CSULB Search
 yelpERS
 Rate My Professor CSULB Chrome App
 CSULB Rate My Professor Bookmarklet
